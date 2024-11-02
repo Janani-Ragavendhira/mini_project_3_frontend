@@ -1,0 +1,25 @@
+.walk-space {
+  margin-top: 44%;
+}
+
+.adjust-top {
+  margin-top: 32px;
+}
+
+.btn-seat {
+  color: #333;
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0da7fd;
+  --bs-btn-border-color: #0d9cfd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0b50d7;
+  --bs-btn-hover-border-color: #0a30ca;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0b50d7;
+  --bs-btn-active-border-color: #0a30ca;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #303030;
+  --bs-btn-disabled-bg: #0d8dfd;
+  --bs-btn-disabled-border-color: #0d82fd;
+}

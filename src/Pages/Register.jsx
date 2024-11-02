@@ -1,7 +1,15 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { useNavigate } from 'react-router-dom';
 
 function Register() {
+
+  const navigate = useNavigate();
+
+  const goLogin = e => {
+    e.preventDefault();
+    navigate('/login');
+  }
 
   return <>
     <div className='pt-5'>
@@ -30,7 +38,7 @@ function Register() {
         </Form.Group>
 
         <Button variant="primary" type="submit">Register</Button>
-        <Button variant='link' type='link'>Go to Login</Button>
+        <Button variant='link' type='button' onClick={goLogin}>Go to Login</Button>
 
       </Form>
     </div>
